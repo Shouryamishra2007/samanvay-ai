@@ -1,0 +1,1352 @@
+[
+  {
+    "test_id": "TEST-T1-001",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "FLG WNRF 2\" 150# A105",
+    "candidate_description": "FLANGE, WELD NECK, 2\" (DN50), CLASS 150, ASTM A105, RF, ASME B16.5",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Identical parity test for FLANGE_WELD_NECK 50mm Class 150"
+  },
+  {
+    "test_id": "TEST-T1-002",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "FLG WNRF 4IN 300# A105",
+    "candidate_description": "FLANGE, WELD NECK, 4\" (DN100), CLASS 300, ASTM A105, RF, ASME B16.5",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Identical parity test for FLANGE_WELD_NECK 100mm Class 300"
+  },
+  {
+    "test_id": "TEST-T1-003",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "FLG-WN-DN150-CL600-A105-RF",
+    "candidate_description": "FLANGE, WELD NECK, 6\" (DN150), CLASS 600, ASTM A105, RF, ASME B16.5",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Identical parity test for FLANGE_WELD_NECK 150mm Class 600"
+  },
+  {
+    "test_id": "TEST-T1-004",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "FLANGE WN 8IN 150LBS SS316 RF",
+    "candidate_description": "FLANGE, WELD NECK, 8\" (DN200), CLASS 150, ASTM A182 F316, RF, ASME B16.5",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Identical parity test for FLANGE_WELD_NECK 200mm Class 150"
+  },
+  {
+    "test_id": "TEST-T1-005",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "FLG WNRF 10\" 300# SS304",
+    "candidate_description": "FLANGE, WELD NECK, 10\" (DN250), CLASS 300, ASTM A182 F304, RF, ASME B16.5",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Identical parity test for FLANGE_WELD_NECK 250mm Class 300"
+  },
+  {
+    "test_id": "TEST-T1-006",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "FLG BLRF 2\" 150# A105",
+    "candidate_description": "FLANGE, BLIND, 2\" (DN50), CLASS 150, ASTM A105, RF, ASME B16.5",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Identical parity test for FLANGE_BLIND 50mm Class 150"
+  },
+  {
+    "test_id": "TEST-T1-007",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "FLANGE BLIND 4IN 300# SA105 RF",
+    "candidate_description": "FLANGE, BLIND, 4\" (DN100), CLASS 300, ASTM A105, RF, ASME B16.5",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Identical parity test for FLANGE_BLIND 100mm Class 300"
+  },
+  {
+    "test_id": "TEST-T1-008",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "FLG-BLD-DN150-CL600-A105-RF",
+    "candidate_description": "FLANGE, BLIND, 6\" (DN150), CLASS 600, ASTM A105, RF, ASME B16.5",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Identical parity test for FLANGE_BLIND 150mm Class 600"
+  },
+  {
+    "test_id": "TEST-T1-009",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "BLIND FLANGE 8\" 300# SS316 RF",
+    "candidate_description": "FLANGE, BLIND, 8\" (DN200), CLASS 300, ASTM A182 F316, RF, ASME B16.5",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Identical parity test for FLANGE_BLIND 200mm Class 300"
+  },
+  {
+    "test_id": "TEST-T1-010",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "FLG SORF 2IN 150LBS A105",
+    "candidate_description": "FLANGE, SLIP ON, 2\" (DN50), CLASS 150, ASTM A105, RF, ASME B16.5",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Identical parity test for FLANGE_SLIP_ON 50mm Class 150"
+  },
+  {
+    "test_id": "TEST-T1-011",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "VLV-GT-DN50-CL150-WCB-RF",
+    "candidate_description": "VALVE, GATE, 2\" (DN50), CLASS 150, ASTM A216 WCB, RF, ASME B16.34",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Identical parity test for GATE_VALVE 50mm Class 150"
+  },
+  {
+    "test_id": "TEST-T1-012",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "GATE VALVE 3\" 300# WCB FLANGED RF",
+    "candidate_description": "VALVE, GATE, 3\" (DN80), CLASS 300, ASTM A216 WCB, RF, ASME B16.34",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Identical parity test for GATE_VALVE 80mm Class 300"
+  },
+  {
+    "test_id": "TEST-T1-013",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "VALVE GATE 4IN CLASS 300 ASTM A216 WCB RF",
+    "candidate_description": "VALVE, GATE, 4\" (DN100), CLASS 300, ASTM A216 WCB, RF, ASME B16.34",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Identical parity test for GATE_VALVE 100mm Class 300"
+  },
+  {
+    "test_id": "TEST-T1-014",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "VLV GT 6IN 600# WCB RF OS&Y",
+    "candidate_description": "VALVE, GATE, 6\" (DN150), CLASS 600, ASTM A216 WCB, RF, ASME B16.34",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Identical parity test for GATE_VALVE 150mm Class 600"
+  },
+  {
+    "test_id": "TEST-T1-015",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "VLV-BL-DN50-CL150-CF8M-RF",
+    "candidate_description": "VALVE, BALL, 2\" (DN50), CLASS 150, ASTM A351 CF8M, RF, ASME B16.34",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Identical parity test for BALL_VALVE 50mm Class 150"
+  },
+  {
+    "test_id": "TEST-T1-016",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "BALL VALVE 4\" 300# SS316 RF",
+    "candidate_description": "VALVE, BALL, 4\" (DN100), CLASS 300, ASTM A351 CF8M, RF, ASME B16.34",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Identical parity test for BALL_VALVE 100mm Class 300"
+  },
+  {
+    "test_id": "TEST-T1-017",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "VLV GLB 2IN 300# WCB RF",
+    "candidate_description": "VALVE, GLOBE, 2\" (DN50), CLASS 300, ASTM A216 WCB, RF, ASME B16.34",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Identical parity test for GLOBE_VALVE 50mm Class 300"
+  },
+  {
+    "test_id": "TEST-T1-018",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "VLV CHK 4IN 300LBS WCB RF",
+    "candidate_description": "VALVE, CHECK, 4\" (DN100), CLASS 300, ASTM A216 WCB, RF, ASME B16.34",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Identical parity test for CHECK_VALVE 100mm Class 300"
+  },
+  {
+    "test_id": "TEST-T1-019",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "PIPE SMLS 4IN SCH40 A106-B BE",
+    "candidate_description": "PIPE, SEAMLESS, 4\" (DN100), SCH 40, ASTM A106 GR.B, BE",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Identical parity test for PIPE_SEAMLESS 100mm Class 300"
+  },
+  {
+    "test_id": "TEST-T1-020",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "PIPE SMLS 6\" SCH80 ASTM A106 GR B",
+    "candidate_description": "PIPE, SEAMLESS, 6\" (DN150), SCH 80, ASTM A106 GR.B, BE",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Identical parity test for PIPE_SEAMLESS 150mm Class 300"
+  },
+  {
+    "test_id": "TEST-T1-021",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "FLG WNRF 3IN 150# A105",
+    "candidate_description": "FLANGE, WELD NECK, 3\" (DN80), CLASS 150, ASTM A105, RF, ASME B16.5",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-022",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "FLG WNRF 3IN 300# A105",
+    "candidate_description": "FLANGE, WELD NECK, 3\" (DN80), CLASS 300, ASTM A105, RF, ASME B16.5",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-023",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "FLG WNRF 6IN 150# A105",
+    "candidate_description": "FLANGE, WELD NECK, 6\" (DN150), CLASS 150, ASTM A105, RF, ASME B16.5",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-024",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "FLG WNRF 6IN 300# A105",
+    "candidate_description": "FLANGE, WELD NECK, 6\" (DN150), CLASS 300, ASTM A105, RF, ASME B16.5",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-025",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "FLG WNRF 8IN 300# A105",
+    "candidate_description": "FLANGE, WELD NECK, 8\" (DN200), CLASS 300, ASTM A105, RF, ASME B16.5",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-026",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "FLG WNRF 12IN 150# A105",
+    "candidate_description": "FLANGE, WELD NECK, 12\" (DN300), CLASS 150, ASTM A105, RF, ASME B16.5",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-027",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "FLG WNRF 12IN 300# A105",
+    "candidate_description": "FLANGE, WELD NECK, 12\" (DN300), CLASS 300, ASTM A105, RF, ASME B16.5",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-028",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "FLG BLRF 3IN 150# A105",
+    "candidate_description": "FLANGE, BLIND, 3\" (DN80), CLASS 150, ASTM A105, RF, ASME B16.5",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-029",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "FLG BLRF 3IN 300# A105",
+    "candidate_description": "FLANGE, BLIND, 3\" (DN80), CLASS 300, ASTM A105, RF, ASME B16.5",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-030",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "FLG BLRF 4IN 150# A105",
+    "candidate_description": "FLANGE, BLIND, 4\" (DN100), CLASS 150, ASTM A105, RF, ASME B16.5",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-031",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "FLG BLRF 8IN 150# A105",
+    "candidate_description": "FLANGE, BLIND, 8\" (DN200), CLASS 150, ASTM A105, RF, ASME B16.5",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-032",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "FLG BLRF 10IN 150# A105",
+    "candidate_description": "FLANGE, BLIND, 10\" (DN250), CLASS 150, ASTM A105, RF, ASME B16.5",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-033",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "FLG BLRF 12IN 300# A105",
+    "candidate_description": "FLANGE, BLIND, 12\" (DN300), CLASS 300, ASTM A105, RF, ASME B16.5",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-034",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "VLV-GT-DN80-CL150-WCB-RF",
+    "candidate_description": "VALVE, GATE, 3\" (DN80), CLASS 150, ASTM A216 WCB, RF, ASME B16.34",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-035",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "VLV-GT-DN100-CL150-WCB-RF",
+    "candidate_description": "VALVE, GATE, 4\" (DN100), CLASS 150, ASTM A216 WCB, RF, ASME B16.34",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-036",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "VLV-GT-DN150-CL300-WCB-RF",
+    "candidate_description": "VALVE, GATE, 6\" (DN150), CLASS 300, ASTM A216 WCB, RF, ASME B16.34",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-037",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "VLV-GT-DN200-CL150-WCB-RF",
+    "candidate_description": "VALVE, GATE, 8\" (DN200), CLASS 150, ASTM A216 WCB, RF, ASME B16.34",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-038",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "VLV-GT-DN200-CL300-WCB-RF",
+    "candidate_description": "VALVE, GATE, 8\" (DN200), CLASS 300, ASTM A216 WCB, RF, ASME B16.34",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-039",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "VLV-BL-DN80-CL150-CF8M-RF",
+    "candidate_description": "VALVE, BALL, 3\" (DN80), CLASS 150, ASTM A351 CF8M, RF, ASME B16.34",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-040",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "VLV-BL-DN150-CL150-CF8M-RF",
+    "candidate_description": "VALVE, BALL, 6\" (DN150), CLASS 150, ASTM A351 CF8M, RF, ASME B16.34",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-041",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "VLV-BL-DN50-CL300-CF8M-RF",
+    "candidate_description": "VALVE, BALL, 2\" (DN50), CLASS 300, ASTM A351 CF8M, RF, ASME B16.34",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-042",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "VLV-GLB-DN80-CL300-WCB-RF",
+    "candidate_description": "VALVE, GLOBE, 3\" (DN80), CLASS 300, ASTM A216 WCB, RF, ASME B16.34",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-043",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "VLV-GLB-DN100-CL150-WCB-RF",
+    "candidate_description": "VALVE, GLOBE, 4\" (DN100), CLASS 150, ASTM A216 WCB, RF, ASME B16.34",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-044",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "VLV-GLB-DN150-CL300-WCB-RF",
+    "candidate_description": "VALVE, GLOBE, 6\" (DN150), CLASS 300, ASTM A216 WCB, RF, ASME B16.34",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-045",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "VLV-CHK-DN50-CL150-WCB-RF",
+    "candidate_description": "VALVE, CHECK, 2\" (DN50), CLASS 150, ASTM A216 WCB, RF, ASME B16.34",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-046",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "VLV-CHK-DN80-CL300-WCB-RF",
+    "candidate_description": "VALVE, CHECK, 3\" (DN80), CLASS 300, ASTM A216 WCB, RF, ASME B16.34",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-047",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "VLV-CHK-DN150-CL150-WCB-RF",
+    "candidate_description": "VALVE, CHECK, 6\" (DN150), CLASS 150, ASTM A216 WCB, RF, ASME B16.34",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-048",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "PIPE SMLS 2IN SCH40 A106-B",
+    "candidate_description": "PIPE, SEAMLESS, 2\" (DN50), SCH 40, ASTM A106 GR.B, BE",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-049",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "PIPE SMLS 3IN SCH40 A106-B",
+    "candidate_description": "PIPE, SEAMLESS, 3\" (DN80), SCH 40, ASTM A106 GR.B, BE",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T1-050",
+    "expected_tier": "TIER_1_IDENTICAL",
+    "source_description": "PIPE SMLS 8IN SCH40 A106-B",
+    "candidate_description": "PIPE, SEAMLESS, 8\" (DN200), SCH 40, ASTM A106 GR.B, BE",
+    "expected_compatibility": true,
+    "category": "IDENTICAL_PARITY",
+    "notes": "Exact match across dialect abbreviations"
+  },
+  {
+    "test_id": "TEST-T2-001",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG WNRF 2IN 150# A105",
+    "candidate_description": "FLANGE, WELD NECK, 2\" (DN50), CLASS 300, ASTM A105, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Pressure upgrade 150 -> 300"
+  },
+  {
+    "test_id": "TEST-T2-002",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG WNRF 3IN 150# A105",
+    "candidate_description": "FLANGE, WELD NECK, 3\" (DN80), CLASS 300, ASTM A105, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Pressure upgrade 150 -> 300"
+  },
+  {
+    "test_id": "TEST-T2-003",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG WNRF 4IN 150# A105",
+    "candidate_description": "FLANGE, WELD NECK, 4\" (DN100), CLASS 300, ASTM A105, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Pressure upgrade 150 -> 300"
+  },
+  {
+    "test_id": "TEST-T2-004",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG WNRF 6IN 150# A105",
+    "candidate_description": "FLANGE, WELD NECK, 6\" (DN150), CLASS 300, ASTM A105, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Pressure upgrade 150 -> 300"
+  },
+  {
+    "test_id": "TEST-T2-005",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG WNRF 8IN 150# A105",
+    "candidate_description": "FLANGE, WELD NECK, 8\" (DN200), CLASS 300, ASTM A105, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Pressure upgrade 150 -> 300"
+  },
+  {
+    "test_id": "TEST-T2-006",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG WNRF 2IN 300# A105",
+    "candidate_description": "FLANGE, WELD NECK, 2\" (DN50), CLASS 600, ASTM A105, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Pressure upgrade 300 -> 600"
+  },
+  {
+    "test_id": "TEST-T2-007",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG WNRF 3IN 300# A105",
+    "candidate_description": "FLANGE, WELD NECK, 3\" (DN80), CLASS 600, ASTM A105, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Pressure upgrade 300 -> 600"
+  },
+  {
+    "test_id": "TEST-T2-008",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG WNRF 4IN 300# A105",
+    "candidate_description": "FLANGE, WELD NECK, 4\" (DN100), CLASS 600, ASTM A105, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Pressure upgrade 300 -> 600"
+  },
+  {
+    "test_id": "TEST-T2-009",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG WNRF 6IN 300# A105",
+    "candidate_description": "FLANGE, WELD NECK, 6\" (DN150), CLASS 600, ASTM A105, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Pressure upgrade 300 -> 600"
+  },
+  {
+    "test_id": "TEST-T2-010",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG WNRF 2IN 600# A105",
+    "candidate_description": "FLANGE, WELD NECK, 2\" (DN50), CLASS 900, ASTM A105, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Pressure upgrade 600 -> 900"
+  },
+  {
+    "test_id": "TEST-T2-011",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG BLRF 2IN 150# A105",
+    "candidate_description": "FLANGE, BLIND, 2\" (DN50), CLASS 300, ASTM A105, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Blind pressure upgrade 150 -> 300"
+  },
+  {
+    "test_id": "TEST-T2-012",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG BLRF 4IN 150# A105",
+    "candidate_description": "FLANGE, BLIND, 4\" (DN100), CLASS 300, ASTM A105, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Blind pressure upgrade 150 -> 300"
+  },
+  {
+    "test_id": "TEST-T2-013",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG BLRF 6IN 150# A105",
+    "candidate_description": "FLANGE, BLIND, 6\" (DN150), CLASS 300, ASTM A105, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Blind pressure upgrade 150 -> 300"
+  },
+  {
+    "test_id": "TEST-T2-014",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG BLRF 4IN 300# A105",
+    "candidate_description": "FLANGE, BLIND, 4\" (DN100), CLASS 600, ASTM A105, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Blind pressure upgrade 300 -> 600"
+  },
+  {
+    "test_id": "TEST-T2-015",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "VLV-GT-DN50-CL150-WCB-RF",
+    "candidate_description": "VALVE, GATE, 2\" (DN50), CLASS 300, ASTM A216 WCB, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Valve pressure upgrade 150 -> 300"
+  },
+  {
+    "test_id": "TEST-T2-016",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "VLV-GT-DN80-CL150-WCB-RF",
+    "candidate_description": "VALVE, GATE, 3\" (DN80), CLASS 300, ASTM A216 WCB, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Valve pressure upgrade 150 -> 300"
+  },
+  {
+    "test_id": "TEST-T2-017",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "VLV-GT-DN100-CL150-WCB-RF",
+    "candidate_description": "VALVE, GATE, 4\" (DN100), CLASS 300, ASTM A216 WCB, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Valve pressure upgrade 150 -> 300"
+  },
+  {
+    "test_id": "TEST-T2-018",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "VLV-GT-DN50-CL300-WCB-RF",
+    "candidate_description": "VALVE, GATE, 2\" (DN50), CLASS 600, ASTM A216 WCB, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Valve pressure upgrade 300 -> 600"
+  },
+  {
+    "test_id": "TEST-T2-019",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "VLV-GT-DN100-CL300-WCB-RF",
+    "candidate_description": "VALVE, GATE, 4\" (DN100), CLASS 600, ASTM A216 WCB, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Valve pressure upgrade 300 -> 600"
+  },
+  {
+    "test_id": "TEST-T2-020",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "VLV-BL-DN50-CL150-CF8M-RF",
+    "candidate_description": "VALVE, BALL, 2\" (DN50), CLASS 300, ASTM A351 CF8M, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Ball valve pressure upgrade 150 -> 300"
+  },
+  {
+    "test_id": "TEST-T2-021",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG WNRF 2IN 150# A105",
+    "candidate_description": "FLANGE, WELD NECK, 2\" (DN50), CLASS 150, ASTM A182 F316, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Metallurgy upgrade CS -> SS316"
+  },
+  {
+    "test_id": "TEST-T2-022",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG WNRF 3IN 150# A105",
+    "candidate_description": "FLANGE, WELD NECK, 3\" (DN80), CLASS 150, ASTM A182 F316, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Metallurgy upgrade CS -> SS316"
+  },
+  {
+    "test_id": "TEST-T2-023",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG WNRF 4IN 150# A105",
+    "candidate_description": "FLANGE, WELD NECK, 4\" (DN100), CLASS 150, ASTM A182 F316, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Metallurgy upgrade CS -> SS316"
+  },
+  {
+    "test_id": "TEST-T2-024",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG WNRF 6IN 300# A105",
+    "candidate_description": "FLANGE, WELD NECK, 6\" (DN150), CLASS 300, ASTM A182 F316, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Metallurgy upgrade CS -> SS316"
+  },
+  {
+    "test_id": "TEST-T2-025",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG WNRF 2IN 150# A105",
+    "candidate_description": "FLANGE, WELD NECK, 2\" (DN50), CLASS 150, ASTM A182 F304, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Metallurgy upgrade CS -> SS304"
+  },
+  {
+    "test_id": "TEST-T2-026",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG WNRF 4IN 300# A105",
+    "candidate_description": "FLANGE, WELD NECK, 4\" (DN100), CLASS 300, ASTM A182 F304, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Metallurgy upgrade CS -> SS304"
+  },
+  {
+    "test_id": "TEST-T2-027",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG WNRF 2IN 150# A105",
+    "candidate_description": "FLANGE, WELD NECK, 2\" (DN50), CLASS 150, ASTM A350 LF2, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Metallurgy upgrade CS -> Low Temp LF2"
+  },
+  {
+    "test_id": "TEST-T2-028",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG WNRF 4IN 300# A105",
+    "candidate_description": "FLANGE, WELD NECK, 4\" (DN100), CLASS 300, ASTM A350 LF2, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Metallurgy upgrade CS -> Low Temp LF2"
+  },
+  {
+    "test_id": "TEST-T2-029",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG BLRF 2IN 150# A105",
+    "candidate_description": "FLANGE, BLIND, 2\" (DN50), CLASS 150, ASTM A182 F316, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Blind metallurgy upgrade CS -> SS316"
+  },
+  {
+    "test_id": "TEST-T2-030",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG BLRF 4IN 300# A105",
+    "candidate_description": "FLANGE, BLIND, 4\" (DN100), CLASS 300, ASTM A182 F316, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Blind metallurgy upgrade CS -> SS316"
+  },
+  {
+    "test_id": "TEST-T2-031",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG BLRF 6IN 150# A105",
+    "candidate_description": "FLANGE, BLIND, 6\" (DN150), CLASS 150, ASTM A182 F304, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Blind metallurgy upgrade CS -> SS304"
+  },
+  {
+    "test_id": "TEST-T2-032",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "VLV-GT-DN50-CL150-WCB-RF",
+    "candidate_description": "VALVE, GATE, 2\" (DN50), CLASS 150, ASTM A351 CF8M, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Valve metallurgy upgrade WCB -> CF8M"
+  },
+  {
+    "test_id": "TEST-T2-033",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "VLV-GT-DN80-CL150-WCB-RF",
+    "candidate_description": "VALVE, GATE, 3\" (DN80), CLASS 150, ASTM A351 CF8M, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Valve metallurgy upgrade WCB -> CF8M"
+  },
+  {
+    "test_id": "TEST-T2-034",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "VLV-GT-DN100-CL300-WCB-RF",
+    "candidate_description": "VALVE, GATE, 4\" (DN100), CLASS 300, ASTM A351 CF8M, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Valve metallurgy upgrade WCB -> CF8M"
+  },
+  {
+    "test_id": "TEST-T2-035",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "VLV-CHK-DN50-CL150-WCB-RF",
+    "candidate_description": "VALVE, CHECK, 2\" (DN50), CLASS 150, ASTM A351 CF8M, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Check valve metallurgy upgrade WCB -> CF8M"
+  },
+  {
+    "test_id": "TEST-T2-036",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG WNRF 2IN 150# A105",
+    "candidate_description": "FLANGE, WELD NECK, 2\" (DN50), CLASS 300, ASTM A182 F316, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Dual upgrade: 150->300 & CS->SS316"
+  },
+  {
+    "test_id": "TEST-T2-037",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG WNRF 4IN 150# A105",
+    "candidate_description": "FLANGE, WELD NECK, 4\" (DN100), CLASS 300, ASTM A182 F316, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Dual upgrade: 150->300 & CS->SS316"
+  },
+  {
+    "test_id": "TEST-T2-038",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG WNRF 6IN 150# A105",
+    "candidate_description": "FLANGE, WELD NECK, 6\" (DN150), CLASS 300, ASTM A182 F316, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Dual upgrade: 150->300 & CS->SS316"
+  },
+  {
+    "test_id": "TEST-T2-039",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "VLV-GT-DN50-CL150-WCB-RF",
+    "candidate_description": "VALVE, GATE, 2\" (DN50), CLASS 300, ASTM A351 CF8M, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Dual upgrade: 150->300 & WCB->CF8M"
+  },
+  {
+    "test_id": "TEST-T2-040",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "VLV-GT-DN100-CL150-WCB-RF",
+    "candidate_description": "VALVE, GATE, 4\" (DN100), CLASS 300, ASTM A351 CF8M, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Dual upgrade: 150->300 & WCB->CF8M"
+  },
+  {
+    "test_id": "TEST-T2-041",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG WNRF 8IN 150# A105",
+    "candidate_description": "FLANGE, WELD NECK, 8\" (DN200), CLASS 300, ASTM A182 F316, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Dual upgrade: 150->300 & CS->SS316"
+  },
+  {
+    "test_id": "TEST-T2-042",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG WNRF 10IN 150# A105",
+    "candidate_description": "FLANGE, WELD NECK, 10\" (DN250), CLASS 300, ASTM A105, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Pressure upgrade 150 -> 300"
+  },
+  {
+    "test_id": "TEST-T2-043",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG WNRF 12IN 150# A105",
+    "candidate_description": "FLANGE, WELD NECK, 12\" (DN300), CLASS 300, ASTM A105, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Pressure upgrade 150 -> 300"
+  },
+  {
+    "test_id": "TEST-T2-044",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG BLRF 8IN 150# A105",
+    "candidate_description": "FLANGE, BLIND, 8\" (DN200), CLASS 300, ASTM A105, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Blind pressure upgrade 150 -> 300"
+  },
+  {
+    "test_id": "TEST-T2-045",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "FLG BLRF 10IN 150# A105",
+    "candidate_description": "FLANGE, BLIND, 10\" (DN250), CLASS 300, ASTM A105, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Blind pressure upgrade 150 -> 300"
+  },
+  {
+    "test_id": "TEST-T2-046",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "VLV-GT-DN150-CL150-WCB-RF",
+    "candidate_description": "VALVE, GATE, 6\" (DN150), CLASS 300, ASTM A216 WCB, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Valve pressure upgrade 150 -> 300"
+  },
+  {
+    "test_id": "TEST-T2-047",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "VLV-GT-DN200-CL150-WCB-RF",
+    "candidate_description": "VALVE, GATE, 8\" (DN200), CLASS 300, ASTM A216 WCB, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Valve pressure upgrade 150 -> 300"
+  },
+  {
+    "test_id": "TEST-T2-048",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "VLV-BL-DN80-CL150-CF8M-RF",
+    "candidate_description": "VALVE, BALL, 3\" (DN80), CLASS 300, ASTM A351 CF8M, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Ball valve pressure upgrade 150 -> 300"
+  },
+  {
+    "test_id": "TEST-T2-049",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "VLV-BL-DN100-CL150-CF8M-RF",
+    "candidate_description": "VALVE, BALL, 4\" (DN100), CLASS 300, ASTM A351 CF8M, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Ball valve pressure upgrade 150 -> 300"
+  },
+  {
+    "test_id": "TEST-T2-050",
+    "expected_tier": "TIER_2_SUBSTITUTE",
+    "source_description": "VLV-GLB-DN50-CL150-WCB-RF",
+    "candidate_description": "VALVE, GLOBE, 2\" (DN50), CLASS 300, ASTM A216 WCB, RF",
+    "expected_compatibility": true,
+    "category": "VALID_FUNCTIONAL_UPGRADE",
+    "notes": "Globe valve pressure upgrade 150 -> 300"
+  },
+  {
+    "test_id": "TEST-T3-001",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 2IN 300# A105",
+    "candidate_description": "FLANGE, WELD NECK, 2\" (DN50), CLASS 150, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Down-rating 300# to 150# (burst hazard)"
+  },
+  {
+    "test_id": "TEST-T3-002",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 3IN 300# A105",
+    "candidate_description": "FLANGE, WELD NECK, 3\" (DN80), CLASS 150, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Down-rating 300# to 150#"
+  },
+  {
+    "test_id": "TEST-T3-003",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 4IN 300# A105",
+    "candidate_description": "FLANGE, WELD NECK, 4\" (DN100), CLASS 150, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Down-rating 300# to 150#"
+  },
+  {
+    "test_id": "TEST-T3-004",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 6IN 300# A105",
+    "candidate_description": "FLANGE, WELD NECK, 6\" (DN150), CLASS 150, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Down-rating 300# to 150#"
+  },
+  {
+    "test_id": "TEST-T3-005",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 8IN 300# A105",
+    "candidate_description": "FLANGE, WELD NECK, 8\" (DN200), CLASS 150, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Down-rating 300# to 150#"
+  },
+  {
+    "test_id": "TEST-T3-006",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 2IN 600# A105",
+    "candidate_description": "FLANGE, WELD NECK, 2\" (DN50), CLASS 300, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Down-rating 600# to 300#"
+  },
+  {
+    "test_id": "TEST-T3-007",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 4IN 600# A105",
+    "candidate_description": "FLANGE, WELD NECK, 4\" (DN100), CLASS 300, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Down-rating 600# to 300#"
+  },
+  {
+    "test_id": "TEST-T3-008",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 6IN 600# A105",
+    "candidate_description": "FLANGE, WELD NECK, 6\" (DN150), CLASS 150, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Severe down-rating 600# to 150#"
+  },
+  {
+    "test_id": "TEST-T3-009",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 2IN 900# A105",
+    "candidate_description": "FLANGE, WELD NECK, 2\" (DN50), CLASS 600, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Down-rating 900# to 600#"
+  },
+  {
+    "test_id": "TEST-T3-010",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 4IN 1500# A105",
+    "candidate_description": "FLANGE, WELD NECK, 4\" (DN100), CLASS 900, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Down-rating 1500# to 900#"
+  },
+  {
+    "test_id": "TEST-T3-011",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "VLV-GT-DN50-CL300-WCB-RF",
+    "candidate_description": "VALVE, GATE, 2\" (DN50), CLASS 150, ASTM A216 WCB, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Valve down-rating 300# to 150#"
+  },
+  {
+    "test_id": "TEST-T3-012",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "VLV-GT-DN100-CL300-WCB-RF",
+    "candidate_description": "VALVE, GATE, 4\" (DN100), CLASS 150, ASTM A216 WCB, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Valve down-rating 300# to 150#"
+  },
+  {
+    "test_id": "TEST-T3-013",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "VLV-GT-DN150-CL600-WCB-RF",
+    "candidate_description": "VALVE, GATE, 6\" (DN150), CLASS 300, ASTM A216 WCB, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Valve down-rating 600# to 300#"
+  },
+  {
+    "test_id": "TEST-T3-014",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG BLRF 4IN 300# A105",
+    "candidate_description": "FLANGE, BLIND, 4\" (DN100), CLASS 150, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Blind down-rating 300# to 150#"
+  },
+  {
+    "test_id": "TEST-T3-015",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG BLRF 6IN 600# A105",
+    "candidate_description": "FLANGE, BLIND, 6\" (DN150), CLASS 300, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Blind down-rating 600# to 300#"
+  },
+  {
+    "test_id": "TEST-T3-016",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 2IN 150# A105",
+    "candidate_description": "FLANGE, WELD NECK, 3\" (DN80), CLASS 150, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Size mismatch: Req 2\" (50mm), offered 3\" (80mm)"
+  },
+  {
+    "test_id": "TEST-T3-017",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 2IN 150# A105",
+    "candidate_description": "FLANGE, WELD NECK, 4\" (DN100), CLASS 150, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Size mismatch: Req 2\" (50mm), offered 4\" (100mm)"
+  },
+  {
+    "test_id": "TEST-T3-018",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 4IN 300# A105",
+    "candidate_description": "FLANGE, WELD NECK, 6\" (DN150), CLASS 300, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Size mismatch: Req 4\" (100mm), offered 6\" (150mm)"
+  },
+  {
+    "test_id": "TEST-T3-019",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 6IN 300# A105",
+    "candidate_description": "FLANGE, WELD NECK, 4\" (DN100), CLASS 300, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Size mismatch: Req 6\" (150mm), offered 4\" (100mm)"
+  },
+  {
+    "test_id": "TEST-T3-020",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 8IN 150# A105",
+    "candidate_description": "FLANGE, WELD NECK, 10\" (DN250), CLASS 150, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Size mismatch: Req 8\" (200mm), offered 10\" (250mm)"
+  },
+  {
+    "test_id": "TEST-T3-021",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG BLRF 2IN 150# A105",
+    "candidate_description": "FLANGE, BLIND, 3\" (DN80), CLASS 150, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Blind size mismatch 2\" vs 3\""
+  },
+  {
+    "test_id": "TEST-T3-022",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG BLRF 4IN 300# A105",
+    "candidate_description": "FLANGE, BLIND, 6\" (DN150), CLASS 300, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Blind size mismatch 4\" vs 6\""
+  },
+  {
+    "test_id": "TEST-T3-023",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "VLV-GT-DN50-CL150-WCB-RF",
+    "candidate_description": "VALVE, GATE, 3\" (DN80), CLASS 150, ASTM A216 WCB, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Valve size mismatch DN50 vs DN80"
+  },
+  {
+    "test_id": "TEST-T3-024",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "VLV-GT-DN100-CL300-WCB-RF",
+    "candidate_description": "VALVE, GATE, 6\" (DN150), CLASS 300, ASTM A216 WCB, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Valve size mismatch DN100 vs DN150"
+  },
+  {
+    "test_id": "TEST-T3-025",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "VLV-BL-DN50-CL150-CF8M-RF",
+    "candidate_description": "VALVE, BALL, 4\" (DN100), CLASS 150, ASTM A351 CF8M, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Ball valve size mismatch 2\" vs 4\""
+  },
+  {
+    "test_id": "TEST-T3-026",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "PIPE SMLS 4IN SCH40 A106-B",
+    "candidate_description": "PIPE, SEAMLESS, 6\" (DN150), SCH 40, ASTM A106 GR.B, BE",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Pipe size mismatch 4\" vs 6\""
+  },
+  {
+    "test_id": "TEST-T3-027",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "PIPE SMLS 2IN SCH40 A106-B",
+    "candidate_description": "PIPE, SEAMLESS, 3\" (DN80), SCH 40, ASTM A106 GR.B, BE",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Pipe size mismatch 2\" vs 3\""
+  },
+  {
+    "test_id": "TEST-T3-028",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 10IN 150# A105",
+    "candidate_description": "FLANGE, WELD NECK, 12\" (DN300), CLASS 150, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Size mismatch 10\" vs 12\""
+  },
+  {
+    "test_id": "TEST-T3-029",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 12IN 300# A105",
+    "candidate_description": "FLANGE, WELD NECK, 8\" (DN200), CLASS 300, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Size mismatch 12\" vs 8\""
+  },
+  {
+    "test_id": "TEST-T3-030",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "VLV-GLB-DN50-CL300-WCB-RF",
+    "candidate_description": "VALVE, GLOBE, 4\" (DN100), CLASS 300, ASTM A216 WCB, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Globe valve size mismatch DN50 vs DN100"
+  },
+  {
+    "test_id": "TEST-T3-031",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 2IN 150# F316",
+    "candidate_description": "FLANGE, WELD NECK, 2\" (DN50), CLASS 150, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Severe downgrade: Req SS316, offered Carbon Steel A105"
+  },
+  {
+    "test_id": "TEST-T3-032",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 4IN 300# F316",
+    "candidate_description": "FLANGE, WELD NECK, 4\" (DN100), CLASS 300, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Severe downgrade: Req SS316, offered Carbon Steel A105"
+  },
+  {
+    "test_id": "TEST-T3-033",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 6IN 150# F316",
+    "candidate_description": "FLANGE, WELD NECK, 6\" (DN150), CLASS 150, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Severe downgrade: Req SS316, offered Carbon Steel A105"
+  },
+  {
+    "test_id": "TEST-T3-034",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 2IN 150# F304",
+    "candidate_description": "FLANGE, WELD NECK, 2\" (DN50), CLASS 150, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Downgrade: Req SS304, offered Carbon Steel A105"
+  },
+  {
+    "test_id": "TEST-T3-035",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG BLRF 4IN 300# F316",
+    "candidate_description": "FLANGE, BLIND, 4\" (DN100), CLASS 300, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Blind downgrade: Req SS316, offered Carbon Steel A105"
+  },
+  {
+    "test_id": "TEST-T3-036",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "VLV-BL-DN50-CL150-CF8M-RF",
+    "candidate_description": "VALVE, BALL, 2\" (DN50), CLASS 150, ASTM A216 WCB, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Valve downgrade: Req Stainless CF8M, offered Carbon Steel WCB"
+  },
+  {
+    "test_id": "TEST-T3-037",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "VLV-BL-DN100-CL300-CF8M-RF",
+    "candidate_description": "VALVE, BALL, 4\" (DN100), CLASS 300, ASTM A216 WCB, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Valve downgrade: Req Stainless CF8M, offered Carbon Steel WCB"
+  },
+  {
+    "test_id": "TEST-T3-038",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 2IN 150# LF2",
+    "candidate_description": "FLANGE, WELD NECK, 2\" (DN50), CLASS 150, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Low temp downgrade: Req LF2, offered non-low-temp A105"
+  },
+  {
+    "test_id": "TEST-T3-039",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 4IN 300# LF2",
+    "candidate_description": "FLANGE, WELD NECK, 4\" (DN100), CLASS 300, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Low temp downgrade: Req LF2, offered non-low-temp A105"
+  },
+  {
+    "test_id": "TEST-T3-040",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 4IN 300# F316",
+    "candidate_description": "FLANGE, WELD NECK, 4\" (DN100), CLASS 300, ASTM A182 F304, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Molybdenum corrosion downgrade: Req F316, offered F304"
+  },
+  {
+    "test_id": "TEST-T3-041",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 4IN 300# A105",
+    "candidate_description": "VALVE, GATE, 4\" (DN100), CLASS 300, ASTM A216 WCB, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Component type mismatch: Flange vs Gate Valve"
+  },
+  {
+    "test_id": "TEST-T3-042",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "GATE VALVE 2IN 150# WCB RF",
+    "candidate_description": "VALVE, GLOBE, 2\" (DN50), CLASS 150, ASTM A216 WCB, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Valve type mismatch: Gate Valve vs Globe Valve"
+  },
+  {
+    "test_id": "TEST-T3-043",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "GATE VALVE 4IN 300# WCB RF",
+    "candidate_description": "VALVE, CHECK, 4\" (DN100), CLASS 300, ASTM A216 WCB, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Valve type mismatch: Gate Valve vs Check Valve"
+  },
+  {
+    "test_id": "TEST-T3-044",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLANGE WN 4IN 300# A105 RTJ",
+    "candidate_description": "FLANGE, WELD NECK, 4\" (DN100), CLASS 300, ASTM A105, FF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Facing mismatch: Ring Type Joint (RTJ) vs Flat Face (FF)"
+  },
+  {
+    "test_id": "TEST-T3-045",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLANGE WN 2IN 600# A105 RTJ",
+    "candidate_description": "FLANGE, WELD NECK, 2\" (DN50), CLASS 600, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Facing mismatch: High-pressure RTJ vs RF"
+  },
+  {
+    "test_id": "TEST-T3-046",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "PIPE SMLS 4IN SCH40 A106-B",
+    "candidate_description": "FLANGE, WELD NECK, 4\" (DN100), CLASS 150, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Component type mismatch: Seamless Pipe vs Flange"
+  },
+  {
+    "test_id": "TEST-T3-047",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "VLV-BL-DN50-CL150-CF8M-RF",
+    "candidate_description": "VALVE, GATE, 2\" (DN50), CLASS 150, ASTM A216 WCB, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Type & metallurgy mismatch: Ball Valve SS vs Gate Valve CS"
+  },
+  {
+    "test_id": "TEST-T3-048",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 8IN 300# A105",
+    "candidate_description": "FLANGE, BLIND, 8\" (DN200), CLASS 300, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Flange function mismatch: Weld Neck vs Blind Flange"
+  },
+  {
+    "test_id": "TEST-T3-049",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG BLRF 6IN 300# A105",
+    "candidate_description": "FLANGE, SLIP ON, 6\" (DN150), CLASS 300, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Flange function mismatch: Blind vs Slip On"
+  },
+  {
+    "test_id": "TEST-T3-050",
+    "expected_tier": "TIER_3_INCOMPATIBLE",
+    "source_description": "FLG WNRF 4IN 300# A105",
+    "candidate_description": "FLANGE, WELD NECK, 2\" (DN50), CLASS 150, ASTM A105, RF",
+    "expected_compatibility": false,
+    "category": "STRICT_SAFETY_VIOLATION",
+    "notes": "Compound violation: Size mismatch (4\" vs 2\") AND down-rating (300# to 150#)"
+  }
+]
